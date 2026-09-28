@@ -72,8 +72,8 @@ exempel för att inga annonser visades eller för att det saknas lokala företag
 ## Bra att veta
 
 - Två kommuner säger något om Enköping och Falkenberg, inte om hela Sverige.
-- Annonserna byts ut hela tiden. Gör du om sökningarna får du andra annonsörer, men andelen utan
-  lokala företag var stabil vid alla tre tillfällena.
+- Vem som ligger först skiftar mellan sökningar, delvis för att insamlingstjänsten själv varierar.
+  Andelen utan lokala företag var däremot stabil vid alla tre tillfällena.
 - Kedjorna kontrollerades mot adresser i Enköping, så kolumnerna som räknar in kedjor är osäkra
   för Falkenberg.
 - Tjänsten som samlade in sökresultaten missar ibland annonser. I en kontroll mot Google missade
