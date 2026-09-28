@@ -29,7 +29,8 @@ Hur det gick till står i [metod.md](metod.md).
 
 ## Kolumner i `branschtabell.csv`
 
-En rad per kommun och bransch. Andelarna gäller de fyra översta annonserna och summerar till 1.
+En rad per kommun och bransch. Andelarna gäller de fyra översta annonserna, och alla utom
+`andel_internationella` summerar till 1.
 Branscher med få annonser är med här, men diagrammen i rapporten visar bara branscher med minst
 15 annonser.
 
@@ -47,7 +48,8 @@ Branscher med få annonser är med här, men diagrammen i rapporten visar bara b
 ## Kolumner i `dataset.csv`
 
 Rader med `alla` är sammanslagna, så raden `enkoping, alla, alla, alla` är Enköpings totalsiffror.
-Andelar anges som tal mellan 0 och 1.
+Andelar anges som tal mellan 0 och 1. En tom cell betyder att andelen inte går att räkna, till
+exempel för att inga annonser visades eller för att det saknas lokala företag i branschen.
 
 | Kolumn | Betydelse |
 |---|---|
@@ -74,6 +76,9 @@ Andelar anges som tal mellan 0 och 1.
   lokala företag var stabil vid alla tre tillfällena.
 - Kedjorna kontrollerades mot adresser i Enköping, så kolumnerna som räknar in kedjor är osäkra
   för Falkenberg.
+- Tjänsten som samlade in sökresultaten missar ibland annonser. I en kontroll mot Google missade
+  den annonserna helt i 9 av 30 sökningar, så `andel_utan_annonser` är troligen för hög. Mer om
+  det i [metod.md](metod.md).
 
 ## Vem som gjort studien
 

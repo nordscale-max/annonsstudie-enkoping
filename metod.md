@@ -16,19 +16,21 @@ elektriker enköping", "akut elektriker enköping" och "elektriker nära mig". V
 gjordes på mobil och dator, vid tre tillfällen per kommun den 4–7 september 2026: en vardag
 mitt på dagen, en vardagskväll och en helgförmiddag. Totalt 2 940 sökresultatsidor.
 
-Falkenberg mättes på samma sätt som jämförelse. Kommunen är lika stor som Enköping men har
+Falkenberg mättes på samma sätt som jämförelse. Kommunen är nästan lika stor som Enköping men har
 Göteborg och Halmstad som närmaste storstäder, i stället för Stockholm, Uppsala och Västerås.
 
 ## Kontroll mot Google
 
 Eftersom allt samlades in via en enda tjänst gjordes 30 av sökningarna den 28 september 2026
-också i en vanlig webbläsare i Enköping, utan inloggning och utan cookies, samtidigt som tjänsten
-hämtade samma sökningar. På frågan om ett lokalt företag fanns bland de fyra översta gav de samma
-svar i 28 av 30 fall. Exakt vem som låg först skiljde sig oftare, men det gjorde det också när
-samma källa sökte två gånger med fem minuters mellanrum. Tjänsten missade annonserna helt i 9
-sökningar, så andelen sökningar med annonser är troligen högre än datan visar. Huvudsiffran
+också på dator i en vanlig webbläsare i Enköping, utan inloggning och med cookies avvisade,
+samtidigt som tjänsten hämtade samma sökningar. På frågan om ett lokalt företag fanns bland de
+fyra översta gav de samma svar i 28 av 30 fall. Vem som låg först stämde i 9 av de 16 sökningar
+där båda visade annonser. När tio av sökningarna gjordes om fem minuter senare hade tjänsten
+samma annonsör först i 3 av 8 fall och webbläsaren i 7 av 8, så förstaplatsen skiftar mer i
+tjänstens data än i en vanlig webbläsare. Tjänsten missade också annonserna helt i 9 av de 30
+sökningarna, så andelen sökningar med annonser är troligen högre än datan visar. Huvudsiffran
 räknas bara på sökningar där annonser visades, och ingen av de nio hade ett lokalt företag bland
-annonserna.
+annonserna. Mobilen, där Googles annonser för lokala företag visas, ingick inte i kontrollen.
 
 ## Vad som räknas
 
@@ -79,7 +81,7 @@ också en strängare variant som räknar med sökningar utan annonser.
 
 Osäkerheten anges som 95-procentiga konfidensintervall med branschen som enhet, eftersom samma
 sökning mäts flera gånger och sökningar inom samma bransch hänger ihop. Intervallen tas fram
-genom att branscherna där annonser visades dras om slumpvis med återläggning många gånger och
+genom att branscherna där annonser visades dras om slumpvis med återläggning 200 000 gånger och
 andelen räknas om varje gång, en så kallad bootstrap.
 
 ## Bestämt i förväg
