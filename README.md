@@ -25,8 +25,7 @@ Hur det gick till står i [metod.md](metod.md).
 |---|---|
 | `branschtabell.csv` | Vilka typer av annonsörer som syns, per kommun och bransch. Underlaget till diagrammen i rapporten. |
 | `dataset.csv` | Alla mått per kommun, bransch, sökvariant och enhet. 1 800 rader. |
-| `metod.md` | Hur studien gjordes. |
-| `forregistrering.md` | Det vi skrev ned innan insamlingen. |
+| `metod.md` | Hur studien gjordes, och vad som bestämdes innan första sökningen. |
 
 ## Kolumner i `branschtabell.csv`
 

@@ -19,28 +19,16 @@ mitt på dagen, en vardagskväll och en helgförmiddag. Totalt 2 940 sökresulta
 Falkenberg mättes på samma sätt som jämförelse. Kommunen är lika stor som Enköping men har
 Göteborg och Halmstad som närmaste storstäder, i stället för Stockholm, Uppsala och Västerås.
 
-Före insamlingen testades tjänsten på tio sökord där annonser nästan alltid visas. I ett av tre
-test kom två av de tio tillbaka utan annonser, så en del sökningar utan annonser i datan kan
-vara missade annonser. Huvudsiffran räknas bara på sökningar där annonser visades.
-
 ## Kontroll mot Google
 
-Eftersom insamlingen gjordes via en enda tjänst kontrollerades den direkt mot Google den 28
-september 2026. 30 av sökningarna, sex branscher i alla fem varianter, gjordes på dator i en
-vanlig webbläsare på en internetuppkoppling i Enköping, utan inloggning och med cookies avvisade.
-Samma sökningar hämtades via tjänsten inom samma minuter.
-
-- **Lokalt företag bland de fyra översta:** samma svar i 28 av 30 sökningar. I båda fallen där
-  svaren skilde sig såg tjänsten ett lokalt företag som webbläsaren inte såg, så tjänsten verkar
-  inte missa lokala företag.
-- **Samma annonsör överst:** i 9 av de 16 sökningar där båda visade annonser. Förstaplatsen
-  skiftar dock från sökning till sökning. När tio av sökningarna gjordes om fem minuter senare
-  hade tjänsten samma annonsör överst i 3 av 8 fall och webbläsaren i 7 av 8. Därför är det
-  utfallet huvudsiffran bygger på, lokalt företag eller inte, som jämförs.
-- **Missade annonser:** tjänsten hittade inga annonser överst i 9 sökningar där webbläsaren
-  visade annonser, oftast "nära mig" och "bästa". Andelen sökningar med annonser är därför
-  troligen högre än datan visar. Huvudsiffran räknas bara på sökningar där annonser visades,
-  och ingen av de nio hade ett lokalt företag bland de fyra översta annonserna.
+Eftersom allt samlades in via en enda tjänst gjordes 30 av sökningarna den 28 september 2026
+också i en vanlig webbläsare i Enköping, utan inloggning och utan cookies, samtidigt som tjänsten
+hämtade samma sökningar. På frågan om ett lokalt företag fanns bland de fyra översta gav de samma
+svar i 28 av 30 fall. Exakt vem som låg först skiljde sig oftare, men det gjorde det också när
+samma källa sökte två gånger med fem minuters mellanrum. Tjänsten missade annonserna helt i 9
+sökningar, så andelen sökningar med annonser är troligen högre än datan visar. Huvudsiffran
+räknas bara på sökningar där annonser visades, och ingen av de nio hade ett lokalt företag bland
+annonserna.
 
 ## Vad som räknas
 
@@ -93,6 +81,15 @@ Osäkerheten anges som 95-procentiga konfidensintervall med branschen som enhet,
 sökning mäts flera gånger och sökningar inom samma bransch hänger ihop. Intervallen tas fram
 genom att branscherna där annonser visades dras om slumpvis med återläggning många gånger och
 andelen räknas om varje gång, en så kallad bootstrap.
+
+## Bestämt i förväg
+
+Innan första sökningen den 4 september skrevs frågan ned, liksom vilka sökningar som skulle
+göras, hur huvudsiffran skulle räknas och en gräns: låg andelen utan lokalt företag över 60 %
+skulle det räknas som att lokala företag oftast inte syns. Samma dag, innan någon data hade
+granskats, bestämdes också att kedjor med kontor i kommunen skulle vara en egen grupp och att
+Falkenberg skulle vara jämförelsekommun. Efter att datan setts lades en variant till som bara
+räknar vanliga textannonser. Den gav i princip samma resultat, 93,2 % i Enköping.
 
 ## Datasetet
 
