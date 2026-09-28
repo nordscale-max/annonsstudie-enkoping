@@ -1,7 +1,7 @@
 # Metod
 
 Så här gjordes studien *Google Ads i Enköping: lokala företag syns sällan i annonserna*.
-Rapporten finns på [adsbyråenköping.se](https://adsbyråenköping.se/blogg/lokala-foretag-syns-sallan-i-google-ads).
+Rapporten finns på [adsbyraenkoping.se](https://adsbyraenkoping.se/blogg/lokala-foretag-syns-sallan-i-google-ads).
 
 ## Insamling
 

@@ -2,7 +2,7 @@
 
 Data och metod till studien *Google Ads i Enköping: lokala företag syns sällan i annonserna* av
 Max-William Björklund, Adsbyrå Enköping. Läs rapporten på
-[adsbyråenköping.se](https://adsbyråenköping.se/blogg/lokala-foretag-syns-sallan-i-google-ads).
+[adsbyraenkoping.se](https://adsbyraenkoping.se/blogg/lokala-foretag-syns-sallan-i-google-ads).
 
 - **Insamlat:** 4–7 september 2026
 - **Licens:** CC BY 4.0. Använd fritt, men ange källa.
